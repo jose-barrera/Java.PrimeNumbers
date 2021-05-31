@@ -41,13 +41,13 @@ public class Main {
                 // El primer divisor posible es 2.
                 int divisor = 2;
 
-                // El ciclo continua mientras pueda ser primo
+                // El ciclo continúa mientras pueda ser primo
                 // y el divisor sea menor que el número que se
                 // está verificando. Usamos un ciclo pre-prueba
                 // ya que uan vez que confirmamos que es divisible
                 // por un divisor, no es necesario checar los 
                 // divisores restantes.
-                while (divisor < numero & puedeSerPrimo) {
+                while (puedeSerPrimo & divisor < numero) {
 
                     // Si el módulo es distinto de cero, todavía
                     // es posible que sea primo.
